@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #888;
+  text-align: center;
+  font-weight: bold;
+}
+
+tr,
+td {
+  width: 20px;
+  height: 20px;
+  border-radius: 10%;
+}
+
+.mine {
+  height: 80%;
+  opacity: 0.3;
+}
